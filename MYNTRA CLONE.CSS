@@ -1,0 +1,509 @@
+* {
+       margin: 0;
+       padding: 0;
+       font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+       box-sizing: border-box;
+}
+
+
+/*HEADER ME NAVBAR KO CONTROL KR REHE HAI*/
+header {
+       display: flex;
+       height: 80PX;
+       background-color: whitesmoke;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: 1px solid whitesmoke;
+}
+
+.myntra_home {
+       height: 45px;
+}
+
+.logo_container {
+       margin-left: 4%;
+}
+
+.action_bar {
+       margin-right: 4%;
+}
+
+
+.nav_bar {
+       display: flex;
+       min-width: 500PX;
+       justify-content: space-evenly;
+
+}
+
+
+.nav_bar a {
+       font-size: 14PX;
+       letter-spacing: 3px;
+       color: #2b2c3f;
+       font-weight: 700;
+       text-transform: uppercase;
+       text-decoration: none;
+       padding: 28px 0;
+       border-bottom: 5px solid white;
+       margin: 6px;
+}
+
+
+
+.nav_bar a:hover {
+       border-bottom: 4px solid grey;
+
+}
+
+
+.nav_bar a sup {
+       color: #ff3f6c;
+       font-size: 10px;
+}
+
+
+
+/*NAVIGATION  KE ANDER SERCH BAR KE ANDER SERCH BAR,SERCH ICON, SERCH INPUT, KKO  TARGET KIYA GYA HAI*/
+
+.serch_bar {
+       height: 40px;
+       min-width: 200px;
+       width: 30%;
+       display: flex;
+       align-items: center;
+
+}
+
+.serch_icon {
+       height: 20px;
+       padding: 10px;
+       box-sizing: content-box;
+
+       background-color: #f5f5f6;
+       color: #282c3f;
+       font-weight: 300px;
+       border-radius: 4px 0 0 4px;
+
+}
+
+
+.serch_input {
+       color: #696e79;
+       background-color: #f5f5f6;
+       flex-grow: 1;
+       height: 40px;
+       border: 0;
+       border-radius: 0 4px 4px 0;
+
+}
+
+
+
+/* NAVIGATION KE ANDER ACTION BAR KE ANDER PROFILE,ICON,WHISLIST KKO  TARGET KIYA GYA HAI*/
+
+
+.action_bar {
+       display: flex;
+       min-width: 200px;
+       justify-content: space-evenly;
+}
+
+
+.action_container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+
+
+
+
+
+
+/*MAIN SECTION TARGET myntar homeoage target FOR CSS  START*/
+
+.banner_container {
+       margin: 30PX 0;
+}
+
+
+.banner_image {
+       width: 100%;
+}
+
+
+/*MAIN SECTION TARGET myntar homeoage target FOR CSS END */
+
+
+
+
+/*MAIN SECTION  ME CATEGOREY HEADING TARGET FOR CSS START */
+
+.category_heading {
+       text-transform: uppercase;
+       color: #3e4152;
+       letter-spacing: .15em;
+       margin: 50px 0 10px 30px;
+       font-size: 1.5em;
+       max-height: 5em;
+       font-weight: 700;
+}
+
+/*END*/
+
+
+
+
+/*MAIN SECTION  ME ITEM CATEGORY IMAGE KO  TARGET KIYA JAA RHA HAI FOR CSS  START*/
+
+.category_offer {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+}
+
+
+.image_item {
+       width: 250px;
+}
+
+
+
+/*MAIN SECTION  ME ITEM CATEGORY IMAGE KO  TARGET KIYA JAA RHA HAI FOR CSS  END*/
+
+
+
+.category_item {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+}
+
+
+
+/*MEN SHIRTS SECTION KO TARGET KIYA JAAA RHA HAI*/
+
+.Men {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       margin-bottom: 20px;
+}
+
+
+.shirts_item {
+       width: 240px;
+       height: 280px;
+       margin-bottom: 40px;
+       margin-top: 20px;
+
+
+       border-bottom: 8px solid grey;
+       border-left: 4px solid grey;
+       border-right: 4px solid grey;
+       border-top: 1px solid grey;
+
+}
+
+.shirts_item:hover {
+       border: 3px solid white;
+
+
+}
+
+
+
+
+/*WOMEN SECTION KO TARGET KIYA JAAA RHA HAI*/
+.Women {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       margin-bottom: 20px;
+}
+
+
+
+/*kids SECTION KO TARGET KIYA JAAA RHA HAI*/
+.Kids {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       margin-bottom: 20px;
+}
+
+/*home living SECTION KO TARGET KIYA JAAA RHA HAI*/
+.homeliving {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       margin-bottom: 20px;
+}
+
+
+/*BEAUTY SECTION KO TARGET KIYA JAAA RHA HAI*/
+.Beauty {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*video how to use myntra appp ifreame ke target kiya jjaaa rha hai*/
+
+.Heading {
+       font-size: 50px;
+       text-align: center;
+       background-color: grey;
+
+       margin-bottom: 20px;
+}
+
+.Heading:hover {
+       background-color: #f54e77;
+       color: white;
+       border: 3px solid white;
+}
+
+.Video_myntra {
+       height: 400px;
+       width: 1200px;
+       display: block;
+       margin: auto;
+       border: 4px solid grey;
+       border-radius: 5px;
+       display: block;
+       margin: auto;
+}
+
+
+
+/*FOTTER KO TARGET KIYA JAA RHA HAI*/
+
+.footer_cotainer {
+       padding: 30px 0px 40px 0px;
+       background-color: #fafbfc;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+}
+
+
+
+
+.footer_colouam {
+       display: flex;
+       flex-direction: column;
+}
+
+
+
+.footer_colouam h3 {
+       font-size: 15px;
+       color: #282c3f;
+       margin-bottom: 20px;
+}
+
+/*footer ke heading ko hover effect targert*/
+.footer_colouam h3:hover {
+       font-size: 18px;
+       color: lightslategray;
+}
+
+
+.footer_colouam a {
+       color: #696b79;
+       font-size: 15px;
+       text-decoration: none;
+       padding-bottom: 10px;
+}
+
+
+.footer_colouam a:hover {
+       font-size: 17px;
+}
+
+
+/*FOOTER ME JO PALY STORE AND APP STORE KI IMAGE KO TARGET KIYA JAAA RHA HAI*/
+.aaa {
+       display: flex;
+
+}
+
+
+.mobile_appicon {
+       padding-top: 1px;
+       display: flex;
+       height: 50px;
+       width: 80px;
+       /* margin-top: 20px;
+       margin-right: 20px; */
+
+}
+
+
+.animation_container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+}
+
+hr {
+
+       border: 2px solid lightslategray;
+       margin-bottom: 15px;
+}
+
+
+
+/*signup form target started*/
+
+.Form_container {
+       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlkf5w_kMhasj8ERvaGvasnxqX76OUDGOLuA&s);
+       background-color: lightslategray;
+       text-align: center;
+       display: block;
+       margin: 60px auto;
+       width: 400px;
+       height: 650px;
+       border-radius: 10px;
+
+}
+
+/*form_container ke ander h1 target*/
+.Form_container h1 {
+       padding-top: 30px;
+       color: white;
+       font-size: 40px;
+       font-weight: 700;
+}
+
+/*form_container ke ander p target*/
+.Form_container p {
+       font-size: 18px;
+       font-weight: 700;
+       padding-top: 8px;
+       padding-bottom: 20px;
+       color: white;
+}
+
+/*form_container ke ander input tag target*/
+.form input {
+       padding-left: 10px;
+       width: 75%;
+       height: 40px;
+       border-radius: 10px;
+       font-size: 15px;
+       margin-bottom: 7px;
+       border: none;
+       transition: red 0.3s ease-in-out;
+}
+
+input:hover {
+       background-color: lightsteelblue;
+       color: white;
+}
+
+
+/*form_container ke ander submit button target*/
+.form .submit_button {
+       font-size: 20px;
+       font-weight: 700;
+       background-color: white;
+       text-align: center;
+       display: block;
+       margin: auto;
+
+}
+
+.form .submit_button:hover {
+       background-color: lightsteelblue;
+       color: white;
+}
+
+
+
+
+
+/*form_container ke ander login_container  target*/
+.login_container {
+       color: white;
+}
+
+
+/*form_container ke ander login_container ke ander a tag target*/
+.login_container a {
+       color: white;
+}
+
+
+/*LOGIN CONTAINER SECTION TARGET*/
+
+.login {
+       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlkf5w_kMhasj8ERvaGvasnxqX76OUDGOLuA&s);
+       text-align: center;
+       background-color: red;
+       width: 400px;
+       height: 500px;
+       display: block;
+       margin: 60px auto;
+       border-radius: 10px;
+}
+
+/*login ke ander h1 tag target*/
+.login h1 {
+       padding-top: 30PX;
+       margin-bottom: 20px;
+       color: white;
+       font-size: 40px;
+       font-weight: 700;
+}
+
+/*login ke ander login_form ke ander input  tag target*/
+.login_form input {
+       padding-left: 10px;
+       width: 75%;
+       height: 40px;
+       border-radius: 10px;
+       font-size: 15px;
+       margin-bottom: 7px;
+       border: none;
+       transition: red 0.3s ease-in-out;
+}
+
+.login_form input:hover {
+       background-color: lightsteelblue;
+       color: white;
+}
+
+
+/*login ke ander login_form p target*/
+.login_form p {
+       font-size: 18px;
+       font-weight: 700;
+       padding-top: 8px;
+       padding-bottom: 20px;
+       color: white;
+       padding-top: 20px;
+}
+
+/*login ke ander login_form  submit & reset buttoun  target*/
+.login_form .submit_button {
+       font-size: 20px;
+       font-weight: 700;
+       background-color: white;
+       text-align: center;
+       display: block;
+       margin: auto;
+
+}
